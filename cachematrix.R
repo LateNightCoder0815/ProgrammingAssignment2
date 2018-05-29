@@ -1,5 +1,6 @@
 ## These functions calculate the inverse of a matrix and can be used to cache
-## results in order to save computation time.
+## results in order to save computation time. For the caching I am using the
+## lexical scoping concept of R.
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
